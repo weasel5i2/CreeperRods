@@ -2,13 +2,14 @@ package net.weasel.CreeperRods;
 
 import org.bukkit.event.Event.Priority;
 import org.bukkit.event.Event.Type;
+import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import net.weasel.CreeperRods.CreeperListener;
 
 public class CreeperRods extends JavaPlugin 
 {
-	public static CreeperListener entityListener;
+	public static Listener entityListener;
 	public static String pluginName = "";
 	public static String pluginVersion = "";
 	
