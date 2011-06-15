@@ -3,10 +3,10 @@ package net.weasel.CreeperRods;
 import org.bukkit.Location;
 import org.bukkit.World;
 import org.bukkit.entity.Entity;
-import org.bukkit.event.Listener;
+import org.bukkit.event.entity.EntityListener;
 import org.bukkit.event.entity.EntityExplodeEvent;
 
-public class CreeperListener implements Listener 
+public class CreeperListener extends EntityListener
 {
 	private CreeperRods plugin;
 	
